@@ -1,0 +1,19 @@
+plugins {
+    id 'java-library'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+mainClassName = 'org.example.poi.xssf.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //all the other dependency jars are pulled in as transitive dependencies
+    implementation 'org.apache.poi:poi-ooxml:5.0.0'
+    runtimeOnly 'org.slf4j:slf4j-simple:1.7.32'
+}
