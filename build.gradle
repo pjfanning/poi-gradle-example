@@ -15,5 +15,6 @@ repositories {
 dependencies {
     //all the other dependency jars are pulled in as transitive dependencies
     implementation 'org.apache.poi:poi-ooxml:5.0.0'
+    //add a SLF4J compatible logging framework
     runtimeOnly 'org.slf4j:slf4j-simple:1.7.32'
 }
