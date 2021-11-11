@@ -13,7 +13,7 @@ Windows
 gradlew.bat run
 ```
 
-To provide your own file - it is best to provide the full absolute file path:
+To provide your own file to be read - it is best to provide the full absolute file path:
 
 Mac/Linux
 ```
