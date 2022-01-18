@@ -14,8 +14,8 @@ repositories {
 
 dependencies {
     //all the other dependency jars are pulled in as transitive dependencies
-    implementation 'org.apache.poi:poi-ooxml:5.1.0'
+    implementation 'org.apache.poi:poi-ooxml:5.2.0'
     //logging redirected to slf4j-simple
     runtimeOnly 'org.apache.logging.log4j:log4j-slf4j-impl:2.17.1'
-    runtimeOnly 'org.slf4j:slf4j-simple:1.7.32'
+    runtimeOnly 'org.slf4j:slf4j-simple:1.7.33'
 }
